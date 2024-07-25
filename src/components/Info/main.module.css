@@ -1,0 +1,24 @@
+.info{
+  height: 100vh;
+  background-color: #ded7d7;
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper{
+  display: flex;
+  margin-top: 0px;
+  justify-content: center;
+  align-items: center;
+  max-width: 50%;
+}
+.foto{
+  border-radius: 3%;
+  box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.2);;
+  width: 160px;
+  margin-left: 20px;
+}
+.textHead{
+  font-weight: 500;
+  font-size: 24px;
+}
