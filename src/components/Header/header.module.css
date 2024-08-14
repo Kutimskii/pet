@@ -25,3 +25,15 @@
   color: black;
   text-decoration: none;
 }
+.listInfoElement a{
+  text-decoration: none;
+  transition: all 0.5s ease-out;
+}
+.listInfoElement:last-child:hover{
+  transform: scale(105%);
+}
+@media (max-width: 780px) {
+  .header{
+    background-color: aqua;
+  }
+}

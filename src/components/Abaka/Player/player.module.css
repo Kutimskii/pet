@@ -1,0 +1,19 @@
+.school{
+  background-color: aqua;
+  width: 30%;
+}
+.schoolWrap{
+  list-style-type: none;
+
+}
+.schoolPart{
+  display: flex;
+
+}
+.schoolCell{
+  /* width: 20px; */
+  height: 20px;
+  background-color: antiquewhite;
+  margin-left: 5px;
+  margin-top: 5px;
+}
