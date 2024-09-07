@@ -14,6 +14,5 @@ export const Header:FC = () =>{
         </ul>
       </nav>
     </div>
-  
   </header>)
 }
