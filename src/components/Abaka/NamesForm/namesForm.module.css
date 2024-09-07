@@ -1,0 +1,47 @@
+.formContainer{
+  position: absolute;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(139, 133, 136, 0.8);
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  padding: 15px;
+  border: blueviolet solid 2px ;
+  border-radius: 7px;
+  background-color: blueviolet;
+
+}
+.wrapperInputs{
+  display: flex;
+  justify-content: space-between;
+}
+
+.inputWrap{
+  display: flex;
+  width:40%;
+  flex-wrap: wrap
+}
+.input:not(:last-child){
+  margin-bottom: 15px;
+}
+.input{
+  margin-right: 15px;
+}
+.radioGroup{
+  display: flex;
+  flex-direction: column;
+}
+.btnCreateFields{
+  margin-top: 10px;
+}
+.btnCreateFields:hover{
+  cursor: pointer;
+}
